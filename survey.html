@@ -1,0 +1,49 @@
+<main id="main">
+<h1 id="title">Survey</h1>
+
+<p id="description">This is a survey.</p>
+
+<form id="survey-form">
+
+  <label for="name" id="name-label">Name:</label><br>
+<input type="text" id="name" name="name" placeholder="Bob Green" required><br>
+
+  <label for="email" id="email-label">Email:</label><br>
+<input type="email" id="email" name="email" placeholder="placeholder@gmail.com" required><br>
+
+  <label for="number" id="number-label">Number:</label><br>
+<input type="number" id="number" name="number" min="000000000" max="100000000" placeholder="078567298" required><br>
+
+  <label for="dropdown">Are you human?:</label><br>
+
+<select id="dropdown" class="dropdown">
+        <option disabled selected value>Select an option</option>
+        <option value="Not completed 12th">Yes</option>
+        <option value="Completed 12th">No</option>
+        </select><br>
+<br>
+<label for="pq">Do you like the colour red?</label>   </div>
+          <ul id="porque" style="list-style: none; ">
+            <!-- for the radio buttons i dont remember where i copy and pasted it from but i only copied one of them and duplicated it-->
+            <li class="radio-buttons"> <label><input type="radio" class="pq" value="1" name="name">Yes</label></li>
+            <li class="radio-buttons"> <label><input type="radio" class="pq" value="2" name="name">No</label></li>
+<br>
+<label for="seleciona">What kind of colours do you like?<br></label>
+  <li class="checkbox"><label><input type="checkbox" value="1" class="seleciona">Primary</label></li>
+  <li class="checkbox"><label><input type="checkbox" value="1" class="seleciona">Secondary</label></li>
+<br>
+<label for="seleciona">What kind of food do you like the most?<br></label>
+  <li class="checkbox"><label><input type="checkbox" value="1" class="seleciona">Fruit and Veg</label></li>
+  <li class="checkbox"><label><input type="checkbox" value="1" class="seleciona">Meat</label></li>
+  <li class="checkbox"><label><input type="checkbox" value="1" class="seleciona">Dairy and snacks</label></li>
+ <br>
+<label for="comments">
+          Additional comments</label><br>
+
+
+        <textarea id="comments" class="input-field" style="height:50px;resize:vertical;" name="comment" placeholder="Enter your comment here..."></textarea>
+        </div><br>
+
+<button id="submit" value="Submit" required><br>
+</form>
+</main>
